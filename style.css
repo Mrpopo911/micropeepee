@@ -32,7 +32,7 @@ body {
 }
 
 .text-orange {
-  color: #ffcc00;
+  color: #ec5242;
 }
 
 .text-grey {
@@ -40,11 +40,11 @@ body {
 }
 
 .bg-darky {
-  background: #ffcc00;
+  background: #272a31;
 }
 
 .bg-orange {
-  background: #ffcc00;
+  background: #ec5242;
 }
 
 .bg-grey {
@@ -86,7 +86,7 @@ body {
 
 .page-menu-item:hover,
 .page-menu-item:focus {
-  color: #ffcc00;
+  color: #ec5242;
   text-decoration: none;
 }
 
@@ -99,35 +99,26 @@ body {
 .main {
   background-image:
     linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192)),
-    url(https://icon-icons.com/icon/code-coding/153713);
+    url(https://devfest.gdgrnd.ru/themes/gdg/assets/devfest2019/img/main-bg.png);
   padding-top: 13rem;
 }
 
 /* Hero Section */
 .hero-section {
-  height: 400px;
-  animation: fadeIn 1s ease-in-out;
-margin-bottom: 400px;
-    border-radius: 5px;
-    width: 1000px;
-  padding: 15px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 10px 10px;
-  margin-left: 10px;
+  height: 600px;
 }
 
 .first-hero-text {
   font-size: 3.5rem;
-  font-style: italic;
 }
 
 .second-hero-text {
   font-size: 5.5rem;
   font-weight: 900;
-  background: linear-gradient(45deg, yellow, #000000 60%, #ffdd00 90%);
+  background: linear-gradient(45deg, red, #ec5242 50%, #ec5242 90%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  color: #ffcc00;
+  color: #ec5242;
 }
 
 .third-hero-text {
@@ -163,8 +154,8 @@ margin-bottom: 400px;
 
 .program-head-hr {
   width: 3rem;
-  background: #ffcc00;
-  color: #ffcc00;
+  background: #ec5242;
+  color: #ec5242;
   height: 2px;
   margin: 0 auto;
 }
@@ -333,7 +324,7 @@ margin-bottom: 400px;
   width: 275px;
   height: 150px;
   background-image:
-    linear-gradient(#eabf25a1, #e2d70ca1),
+    linear-gradient(#ec5342a1, #ec5342a1),
     url(../img/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -346,7 +337,7 @@ margin-bottom: 400px;
 
 .previous-years-img2 {
   background-image:
-    linear-gradient(#eabf25a1, #e2d70ca1),
+    linear-gradient(#ec5342a1, #ec5342a1),
     url(../img/helena-lopes-UZe35tk5UoA-unsplash.jpg);
 }
 
@@ -410,6 +401,32 @@ margin-bottom: 400px;
   height: 0.8rem;
   border: 2px solid white;
 }
+
+.tickets-lunch {
+  padding: 5rem 0;
+}
+
+.lunch-menu {
+  width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.lunch-menu-grey {
+  content: "";
+  height: 3rem;
+  background: #eee;
+}
+
+.lunch-menu-main {
+  align-items: center;
+  height: 6.5rem;
+}
+
+.lunch-menu2 {
+  margin-bottom: 3.5rem;
+}
+
 .ticket-submit {
   color: white;
   font-size: 1.2rem;
@@ -586,16 +603,6 @@ margin-bottom: 400px;
   .previous-years-img2 {
     margin-top: 2rem !important;
   }
-}
-.shape {
-  width: 50px;
-  height: 50px;
-  background-color: #ffcc00; 
-  animation-name: example;
-}
-@keyframes example  {
-  from {background-color: #ffcc00;}
-  to {background-color: black;}
 }
 
 @media (max-width: 900px) {
